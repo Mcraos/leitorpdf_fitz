@@ -34,8 +34,8 @@ def extrair_termos_unicos(caminho_pdf, prefixo):
     return sorted(list(termos_encontrados))
 
 # Pegando os inputs para deixar bem flexivel
-prefixo = input("Digite o prefixo para buscar no PDF (ex: 'EX_MUITO_'): ")
-caminho_pdf = input("Digite o caminho do arquivo PDF (ex: 'documento.pdf'): ")
+prefixo = input("Digite o prefixo para buscar no PDF (ex: 'BRINQ_'): ")
+caminho_pdf = input("Digite o caminho do arquivo PDF (ex: 'exemplo.pdf'): ")
 
 
 lista_final = extrair_termos_unicos(caminho_pdf, prefixo)
